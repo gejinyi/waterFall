@@ -1,0 +1,23 @@
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.col{
+    width: 150px;
+    padding: 0 20px;
+    list-style: none;
+    float: left;
+}
+.wrapper::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.col img{
+    width: 100%;
+}
